@@ -4,25 +4,25 @@
 #include<stdio.h>
 int main()
 {                     
- printf("\nHello world\n");
+ printf("Hello world");
 }
 ```
 
 OUTPUT:
-```
+
  Hello world
- ```
+ 
 ## 2:Sum and Average of numbers
 ```
  // sum and average of number
 #include<stdio.h>
   int main()
  {                                 
-     int a,b,c,d,e,sum,avg;
+     int x,y,z,a,b,sum,avg;
                                                                
    printf("Enter five numbers:");
-   scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
-    sum = a+b+c+d+e;
+   scanf("%d %d %d %d %d",&x,&y,&z,&a,&b);
+    sum = x+y+z+a+b;
    printf("The sum is:%d\n",sum);
    avg = sum/5;
    printf("The average is:%d\n",avg);
@@ -108,13 +108,13 @@ Volume of square:27
      #include<stdio.h>
 int main()
 {                                                                                      
- int a;
- int b;
- int c ;
+ int i;
+ int j;
+ int k ;
  printf("Enter two numbers to get sum:");
- scanf("%d  %d",&a,&b);
- c=a+b;
- printf(" \nThe result is :%d + %d= %d\n",a,b,c);
+ scanf("%d  %d",&i,&j);
+ K=i+j;
+ printf(" \nThe result is :%d + %d= %d\n",i,j,k);
     return 0;
  }
 ```
@@ -131,10 +131,10 @@ The result is :10 + 20= 30
      #include<stdio.h>
 int main()
 {                                
-  int a;   
+  int x;   
  printf("Enter a number:");
- scanf("%d",&a);
-if(a%2==0)
+ scanf("%d",&x);
+if(x%2==0)
 printf("The  number is even\n");
 else
  printf("The number is odd\n");
@@ -201,10 +201,10 @@ Area of circle:12.560000
  #include<stdio.h>
  int main()
  {
- int i,a;
+ int i,x;
  printf("Enter the number upto punishment is shown:");
- scanf("%d",&a);
-  for(i=1;i<=a;i++)
+ scanf("%d",&x);
+  for(i=1;i<=x;i++)
 puts(" HARD WORK IS KEY TO SUCCESS ");
 return 0;
 }
